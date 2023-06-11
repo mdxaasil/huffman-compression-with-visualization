@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+}
+
+p{
+    font-family:'Brush Script MT';
+    font-size :15mm;
+    font-weight: bold;
+}
+
+.text_box2{
+    padding: 30px;
+    width: 20%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+.center_buttons{
+    margin:auto;
+    display:block;
+}
+
+.text_box1{
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    overflow: hidden; /* Add this line */
+
+}
+#treearea {
+    /* width: 100%;
+    height:100%;
+    text-align: center;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    overflow: hidden; Add this line */
+
+}
+
+#myCanvas {
+    /* justify-content: center;
+    align-items: center; */
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute; 
+
+    /* border: 1px solid black; */
+}
