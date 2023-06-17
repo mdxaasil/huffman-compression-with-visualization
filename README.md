@@ -7,5 +7,4 @@ The Huffman Encoder is a project that aims to design and implement a Huffman enc
 - Efficient encoding of input data using Huffman coding
 - Generation of variable-length prefix codes based on symbol frequencies
 - Visualization of the Huffman tree for enhanced understanding
-- Compression of various data types, including text, images, and multimedia files
 - Decompression of Huffman-encoded data back to its original form
